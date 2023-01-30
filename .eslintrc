@@ -8,12 +8,10 @@
     "es6": true,
     "browser": true,
     "jquery": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "rules": {
-    "semi": 1,
-    "indent": ["warn", 2],
-    "no-console": "warn",
-    "no-debugger": "warn"
+    "jsx-a11y/accessible-emoji": "off"
   }
 }
