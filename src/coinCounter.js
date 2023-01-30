@@ -1,4 +1,4 @@
-export const coinCounter = (amount, quarters = 0, dimes = 0, nickels = 0, pennies= 0) => {
+const coinCounter = (amount, quarters = 0, dimes = 0, nickels = 0, pennies= 0) => {
     if(isNaN(amount)) {
         return "Enter a number";
     }
@@ -24,5 +24,8 @@ export const coinCounter = (amount, quarters = 0, dimes = 0, nickels = 0, pennie
     }
 }
 
-console.log(coinCounter(1.01))
+console.log(coinCounter(.25))
+console.log(coinCounter(.10))
+console.log(coinCounter(.05))
+console.log(coinCounter(.01))
 
